@@ -35,4 +35,4 @@ Function call might change on your OS. For windows
 
 
 ## Where is the client?
-I will add the url for client side soon.
+You can check it from [invito-frontend](https://github.com/serhangursoy/invito-frontend)
