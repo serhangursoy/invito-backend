@@ -1,0 +1,38 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+controllers:
+    resource: '../src/Controller/'
+    type:     annotation
+
+register:
+    path:     /register
+    controller: App\Controller\MainController::RegisterUser
+    methods: POST
+
+
+login:
+    path:     /login
+    controller: App\Controller\MainController::LoginUser
+    methods: POST
+
+invitationCreate:
+    path:     /invitation/create
+    controller: App\Controller\MainController::CreateInvitation
+    methods: POST
+
+updateInvitation:
+    path:     /invitation/update
+    controller: App\Controller\MainController::UpdateInvitation
+    methods: POST
+
+getInvitation:
+    path:     /invitation/{uid}
+    controller: App\Controller\MainController::FindInvitation
+    methods: GET
+
+getAllUsers:
+    path:     /users
+    controller: App\Controller\MainController::GetAllUserNames
+    methods: GET
