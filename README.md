@@ -1,3 +1,6 @@
+
+![ss](http://tw.greywool.com/i/QfSba.png)
+
 # Invito 
 This is a simple backend for invitation receive/send application with Symfony. 
 
